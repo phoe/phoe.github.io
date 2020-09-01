@@ -1,0 +1,21 @@
+html {
+    background: url(phoenix-bg.jpg) no-repeat center center fixed;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -o-background-size: contain;
+    background-size: contain;
+}
+body {
+    margin: 40px auto;
+    max-width: 650px;
+    line-height: 1.6;
+    font-size: 18px;
+    color: #444;
+    padding: 0 10px;
+}
+h1, h2, h3 {
+    line-height: 1.2;
+}
+a {
+    font-weight: bold;
+}
