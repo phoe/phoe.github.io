@@ -19,3 +19,8 @@ h1, h2, h3 {
 a {
     font-weight: bold;
 }
+.center {
+    margin: 1em auto;
+    display: block;
+    horizontal-align: center;
+}
