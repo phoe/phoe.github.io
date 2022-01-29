@@ -1,8 +1,5 @@
 html {
     background: url(phoenix-bg.jpg) no-repeat center center fixed;
-    -webkit-background-size: contain;
-    -moz-background-size: contain;
-    -o-background-size: contain;
     background-size: contain;
 }
 body {
@@ -23,4 +20,22 @@ a {
     margin: 1em auto;
     display: block;
     horizontal-align: center;
+}
+.fan_websites_header {
+    background: linear-gradient(to right, #cc0000, #ccaa00, #aadd00,
+                                          #00cc00, #00ccaa, #0000cc,
+                                          #aa00aa, #cc0000, #cc0000);
+    background-clip: text;
+    color: transparent;
+    animation: rainbow_animation 6s linear infinite;
+    background-size: 1000% 100%;
+    letter-spacing: .3em;
+}
+@keyframes rainbow_animation {
+    0%,100% {
+        background-position: 0 0;
+    }
+    100% {
+        background-position: 100% 0;
+    }
 }
